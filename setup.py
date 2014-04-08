@@ -46,7 +46,7 @@ setup(
     ],
     entry_points={
         'nose.plugins': [
-            'django = django_nose.command:NoseDjango',
+            'django = django_nose.command:DjangoNosePlugin',
         ],
     },
 )
